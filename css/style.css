@@ -8,11 +8,13 @@ body {
 }
 
 main {
-	margin: 40px auto;
+	/*margin: 40px auto;*/
 	min-height: 70%;
 	text-align: center;
+	/*
 	max-width: 60%;
 	min-width: 320px;
+	*/
 }
 
 #flag {
@@ -72,29 +74,40 @@ main {
 }
 
 .main-content {
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	font-family: Palatino;
 	margin-top: 64px;
 }
+
+
+
 
 .main-content h2 {
 	text-align: center;
 	display: inline-block;
 	padding: 10px 20px;
 	width: 100%;
+	font-size:2.1em;
+	/*
 	margin-left: -2%;
 	font-family: aleolight;
-	color: #ee6666;
-	background-color: #FDEDCC;
+	color: #ee6666;*/
+	background-color: #ff9d00;
+	color: #fff;
+	
 }
+
 
 .main-content p {
 	font-size: 20px;
 	text-align: center;
+	text-align: justify;
+  	text-justify: newspaper;
 }
 
 .main-content img {
 	width: 68%;
+	margin:25px;
 }
 
 .main-content  h3 {
@@ -146,11 +159,10 @@ input {
 #menu-bar {
 
 list-style-type:none;
-margin:0;
-padding:0;
+margin: 50px 0px 100px -100px ;
 background-color: #A4B9E0;
 height: 50px;
-width: 1200px;
+width: 930px;
 left:0px;
 border-radius: 10px;
 background: rgb(178,225,255); /* Old browsers */
